@@ -1,2 +1,20 @@
 /archive (7)/
 /train.csv
+/face
+
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+
+
+.ipynb_checkpoints/
+
+
+# *.h5
+# *.dat
+
+#secrets if we ever get them
+.env
+
