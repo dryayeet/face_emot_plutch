@@ -13,6 +13,7 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break
+    frame = cv2.flip(frame, 1)  # Mirror/invert camera horizontally
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_classifier.detectMultiScale(gray, 1.3, 5)
