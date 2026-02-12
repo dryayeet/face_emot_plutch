@@ -1,6 +1,7 @@
 /archive (7)/
 /train.csv
 /face
+/new
 
 __pycache__/
 *.py[cod]
